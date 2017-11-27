@@ -24,7 +24,7 @@ function init(){
     const key = event.which
     if (key===code[index]){
       index++;
-      if (index === code.length) {
+      if (index === code.length-1) {
         alert("Congratulations fine warrior. You have cracked the konami code.");
         index = 0;
         }
