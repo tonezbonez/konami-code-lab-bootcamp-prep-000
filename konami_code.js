@@ -25,7 +25,7 @@ function init(){
     if (key===code[index]){
       index++;
       if (index === code.length) {
-        window.alert("Congratulations fine warrior. You have cracked the konami code.");
+        document.window.alert("Congratulations fine warrior. You have cracked the konami code.");
         index = 0;
         }
       } else {
